@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Tektur&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+font-family: 'Tektur', cursive;}
+
+/*header*/
+header{background-image: url('img/fondo.jpg');
+height: 10vh;
+background-position: top;
+display: flex;
+justify-content: space-around; 
+align-items: center;}
+a{ color: white;
+text-decoration: none;
+font-size: 20px;}
+nav a{ margin-left: 50px;
+text-transform: uppercase;
+transition: 0.5s;}
+nav a:hover{color: yellow;}
+
+
+/*containerhero*/
+.hero{background-image: url('img/fondo.jpg');
+height: 90vh;
+background-size: cover;
+padding-left: 100px;
+}
+.hero .hero-titulo{color: white; 
+font-size: 50px;
+padding-top: 200px;
+}
+.hero p{color: white; font-size: 20px;
+margin-bottom: 40px;}
+.btn{
+color:white; 
+padding: 16px 66px;
+margin-top: 30px;
+font-size: 20px;
+font-weight: bolder; 
+cursor: pointer;
+border: none;
+text-decoration: none;
+background-image: linear-gradient(to right, yellow 50%, #0e0e0e 50%);
+background-size: 200%;
+background-repeat: no-repeat;
+background-position: left;
+transition: background-position 0.5s ease;}    
+.btn:hover{background-position: right;} 
+
+
+
+
+/**containergalery*/
+.containergalery{background-color:#0e0e0e;}
+.galerytittle{text-align: center;
+color: white;
+padding-top: 50px;}
+.imagenes123{display: flex; 
+justify-content: center;
+margin-bottom: 50px;
+margin-top: 50px;
+margin-left: 70px;
+margin-right: 70px;
+justify-content: space-between;}
+img{cursor: pointer;}
+img:hover{transform: scale(1.1);
+transition: 3s;}    
+.galerybtn{text-align: center;
+margin-top: 50px;
+padding-bottom: 50px;}
+
+
+/*containeraboutme*/
+.containeraboutme{background-image: url('img/fondoaboutme.jpg');
+height: 90vh;
+background-size: cover;
+padding-top: 100px;}
+.aboutme{display: flex;
+justify-content:space-between;
+align-items: center;}
+.imagenme{margin-left: 300px;
+margin-right: 100px;
+border-radius: 80%;}
+.aboutmedescript{color: white;}
+.aboutmebtn{text-align: center;
+margin-top: 50px;
+padding-bottom: 140px;}
+
+
+/*containercontact*/
+.containercontact{ background-color: black;
+padding-top: 50px;
+display: flex; justify-content: space-between;}
+.contactform h1{color: white; margin-right: 150px;}
+form{ 
+padding: 50px 55px;
+border-radius: 20px;
+text-align: center;
+width: 340px; }
+.input-group {display: flex; 
+flex-direction: column;}
+input , textarea{background-color: #0e0e0e; 
+padding: 20px 14px;
+margin-bottom: 25px;
+border: 0;
+border-radius: 10px;
+font-size: 15px;
+color: white;
+}
+
+.btnform{cursor: pointer;}
